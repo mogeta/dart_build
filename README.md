@@ -9,8 +9,9 @@ vagrant box add ubuntu http://cloud-images.ubuntu.com/quantal/current/quantal-se
 vagrant up
 vagrant ssh
 cd dart/runtime
-#build start
-#sudo apt-get install libc6-dev-i386 g++-multilib
+
+//build start
+//sudo apt-get install libc6-dev-i386 g++-multilib
 ../tools/build.py --arch=ia32 
 
 * https://code.google.com/p/dart/
