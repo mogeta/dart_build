@@ -84,7 +84,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe("java")
   end
 
-  #config.vm.provision :shell, :path => "env.sh"
+  config.vm.provision :shell, :path => "env.sh"
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
   # path, and data_bags path (all relative to this Vagrantfile), and adding
